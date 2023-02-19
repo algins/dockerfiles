@@ -12,9 +12,7 @@ RUN apt-get update \
         curl \
         unzip \
         gnupg \
-        apt-transport-https \
-        nodejs \
-        npm
+        apt-transport-https
 
 # Software repository for Microsoft products
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
